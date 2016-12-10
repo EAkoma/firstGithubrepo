@@ -10,13 +10,14 @@ print "Middle Name: "
 middle_name = gets.chomp
 print "Last Name: "
 last_name = gets.chomp
-full_name = "#{first_name} #{middle_name} #{last_name}" 
+full_name = "#{first_name} #{middle_name} #{last_name}"
 puts "Hello! #{full_name} "
+added a new line for github repository
 =end
 
 
 =begin
-Write a program which asks for a person's favorite number. 
+Write a program which asks for a person's favorite number.
 Have your program add one to the number,
 then suggest the result as a bigger and better favorite number.
 (Do be tactful about it, though.)
@@ -29,7 +30,7 @@ new_favorite_number = favorite_number + 1
 puts "New Favorite number: #{new_favorite_number} : Such a bigger and better number!!! :)"
 
 =begin
-write a program which asks for your first, middle, 
+write a program which asks for your first, middle,
 and last names individually,
 and then adds those lengths together
 puts "Hello!"
@@ -39,7 +40,7 @@ print "Middle Name: "
 middle_name = gets.chomp.strip
 print "Last Name: "
 last_name = gets.chomp.strip
-full_name = "#{first_name} #{middle_name} #{last_name}" 
+full_name = "#{first_name} #{middle_name} #{last_name}"
 full_name_length = (first_name.length+ middle_name.length + last_name.length).to_s.chomp.strip
 puts "Hello #{full_name}! Did you know that your name is #{full_name_length} letters long? "
 
@@ -54,7 +55,3 @@ puts(          'When along came a spider'.center(lineWidth))
 puts(         'Which sat down beside her'.center(lineWidth))
 puts('And scared her poor shoe dog away.'.center(lineWidth))
 =end
-
-
-
-
